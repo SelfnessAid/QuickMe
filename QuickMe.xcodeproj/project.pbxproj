@@ -1,0 +1,712 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E0831BC1D19E42800610293 /* ProviderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E0831BB1D19E42800610293 /* ProviderViewController.swift */; };
+		1E1B8A831CD133200038A4DB /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1B8A821CD133200038A4DB /* RegisterViewController.swift */; };
+		1E1B8A881CD15D9D0038A4DB /* PreferenceUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1B8A871CD15D9D0038A4DB /* PreferenceUtils.swift */; };
+		1E1B8A8B1CD15DD50038A4DB /* PreferenceKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1B8A8A1CD15DD50038A4DB /* PreferenceKeys.swift */; };
+		1E1B8A911CD162420038A4DB /* UIUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1B8A901CD162420038A4DB /* UIUtils.swift */; };
+		1E1B8A931CD166600038A4DB /* NewRequestTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1B8A921CD166600038A4DB /* NewRequestTableViewController.swift */; };
+		1E2592421CD0C2CE0035E2C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2592411CD0C2CE0035E2C9 /* AppDelegate.swift */; };
+		1E2592471CD0C2CE0035E2C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E2592451CD0C2CE0035E2C9 /* Main.storyboard */; };
+		1E25924C1CD0C2CE0035E2C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E25924A1CD0C2CE0035E2C9 /* LaunchScreen.storyboard */; };
+		1E2D1EA71CD9179D00868BA7 /* URLParams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2D1EA61CD9179D00868BA7 /* URLParams.swift */; };
+		1E2D1EA91CD94F9600868BA7 /* SortConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2D1EA81CD94F9600868BA7 /* SortConstant.swift */; };
+		1E2F896F1D50DB6600D05D3F /* HelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2F896E1D50DB6600D05D3F /* HelpViewController.swift */; };
+		1E36C28B1CD3CAA600BCFCBF /* OffersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E36C28A1CD3CAA600BCFCBF /* OffersViewController.swift */; };
+		1E48BA2E1D09932D005A1B46 /* LocationMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E48BA2D1D09932D005A1B46 /* LocationMapViewController.swift */; };
+		1E6472821D1744900011D2C0 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6472811D1744900011D2C0 /* LoginViewController.swift */; };
+		1E78874E1D24741000EB5BE8 /* BalanceHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E78874D1D24741000EB5BE8 /* BalanceHistory.swift */; };
+		1E7887501D24783000EB5BE8 /* BalanceHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E78874F1D24783000EB5BE8 /* BalanceHistoryViewController.swift */; };
+		1E7887521D2483EE00EB5BE8 /* BalanceHistoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E7887511D2483EE00EB5BE8 /* BalanceHistoryTableViewCell.swift */; };
+		1E8430401CD254680071BE68 /* RequestsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E84303F1CD254680071BE68 /* RequestsViewController.swift */; };
+		1E84833A1D522DE60061E069 /* intro.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 1E8483391D522DDC0061E069 /* intro.mp4 */; };
+		1E84833C1D522E290061E069 /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E84833B1D522E290061E069 /* IntroViewController.swift */; };
+		1E87263F1CD40CC700AFB279 /* OfferTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E87263E1CD40CC700AFB279 /* OfferTableViewController.swift */; };
+		1E8726411CD4113B00AFB279 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E8726401CD4113B00AFB279 /* Request.swift */; };
+		1E8726431CD412A600AFB279 /* OfferTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E8726421CD412A600AFB279 /* OfferTableViewCell.swift */; };
+		1E8726461CD4135300AFB279 /* Offer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E8726451CD4135300AFB279 /* Offer.swift */; };
+		1E8726481CD41F8E00AFB279 /* MainMenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E8726471CD41F8E00AFB279 /* MainMenuTableViewController.swift */; };
+		1E97761E1CF1DDA10027C5C3 /* NotificationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E97761D1CF1DDA10027C5C3 /* NotificationType.swift */; };
+		1EA5136F1CD21B880035F76F /* NSDate_Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA5136E1CD21B880035F76F /* NSDate_Extension.swift */; };
+		1EA513721CD22EC30035F76F /* ReportProblemTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA513711CD22EC30035F76F /* ReportProblemTableViewController.swift */; };
+		1EADD2641CD7ECC10066D9C2 /* RealmUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EADD2631CD7ECC10066D9C2 /* RealmUtils.swift */; };
+		1EADD2661CD7F23D0066D9C2 /* WebserviceUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EADD2651CD7F23D0066D9C2 /* WebserviceUtils.swift */; };
+		1EADD2681CD7F2BD0066D9C2 /* URLConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EADD2671CD7F2BD0066D9C2 /* URLConstant.swift */; };
+		1EB6F9441DA690ED00C94794 /* CountryCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB6F9431DA690ED00C94794 /* CountryCode.swift */; };
+		1EB6F9461DA6918200C94794 /* countries.json in Resources */ = {isa = PBXBuildFile; fileRef = 1EB6F9451DA6918200C94794 /* countries.json */; };
+		1EB6F9481DA6929200C94794 /* CountryCodesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB6F9471DA6929200C94794 /* CountryCodesViewController.swift */; };
+		1EC24EE31D00F2700036B6B0 /* Amount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC24ED61D00F2700036B6B0 /* Amount.swift */; };
+		1EC24EE41D00F2700036B6B0 /* Details.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC24ED71D00F2700036B6B0 /* Details.swift */; };
+		1EC24EE51D00F2700036B6B0 /* Item_list.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC24ED81D00F2700036B6B0 /* Item_list.swift */; };
+		1EC24EE61D00F2700036B6B0 /* Items.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC24ED91D00F2700036B6B0 /* Items.swift */; };
+		1EC24EE71D00F2700036B6B0 /* SaleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC24EDA1D00F2700036B6B0 /* SaleModel.swift */; };
+		1EC24EE81D00F2700036B6B0 /* Links.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC24EDB1D00F2700036B6B0 /* Links.swift */; };
+		1EC24EE91D00F2700036B6B0 /* Payer_info.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC24EDC1D00F2700036B6B0 /* Payer_info.swift */; };
+		1EC24EEA1D00F2700036B6B0 /* Payer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC24EDD1D00F2700036B6B0 /* Payer.swift */; };
+		1EC24EEB1D00F2700036B6B0 /* Related_resources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC24EDE1D00F2700036B6B0 /* Related_resources.swift */; };
+		1EC24EEC1D00F2700036B6B0 /* Sale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC24EDF1D00F2700036B6B0 /* Sale.swift */; };
+		1EC24EED1D00F2700036B6B0 /* Shipping_address.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC24EE01D00F2700036B6B0 /* Shipping_address.swift */; };
+		1EC24EEE1D00F2700036B6B0 /* Transaction_fee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC24EE11D00F2700036B6B0 /* Transaction_fee.swift */; };
+		1EC24EEF1D00F2700036B6B0 /* Transactions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC24EE21D00F2700036B6B0 /* Transactions.swift */; };
+		1EC57D2C1D5A60F000C59DD3 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC57D2B1D5A60F000C59DD3 /* Constant.swift */; };
+		1ED3F4BC1CDA41DE0063B8E5 /* ResponseParams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED3F4BB1CDA41DE0063B8E5 /* ResponseParams.swift */; };
+		1ED96EC51CF671AB00403659 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1ED96EC41CF671AB00403659 /* GoogleService-Info.plist */; };
+		1EDDBAF51CD27B1F00BB0728 /* RequestTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EDDBAF41CD27B1F00BB0728 /* RequestTableViewCell.swift */; };
+		1EEA53151CE939D10075B4FF /* icons.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EEA53141CE939D10075B4FF /* icons.xcassets */; };
+		1EEC9D6A1D21C8A7002DB5EF /* NotificationSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EEC9D691D21C8A7002DB5EF /* NotificationSettingsViewController.swift */; };
+		1EF13EE21D073AB000B20FBB /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF13EE11D073AB000B20FBB /* MapViewController.swift */; };
+		1EF13EE41D073E1D00B20FBB /* NSNotificationTypeQuickMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF13EE31D073E1D00B20FBB /* NSNotificationTypeQuickMe.swift */; };
+		6056B2DC84ACE433F15D97EF /* Pods_QuickMe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AFF12144B813C755B93CE88 /* Pods_QuickMe.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1E0831BB1D19E42800610293 /* ProviderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProviderViewController.swift; sourceTree = "<group>"; };
+		1E1B8A821CD133200038A4DB /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		1E1B8A871CD15D9D0038A4DB /* PreferenceUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreferenceUtils.swift; sourceTree = "<group>"; };
+		1E1B8A8A1CD15DD50038A4DB /* PreferenceKeys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreferenceKeys.swift; sourceTree = "<group>"; };
+		1E1B8A901CD162420038A4DB /* UIUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIUtils.swift; sourceTree = "<group>"; };
+		1E1B8A921CD166600038A4DB /* NewRequestTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewRequestTableViewController.swift; sourceTree = "<group>"; };
+		1E25923E1CD0C2CE0035E2C9 /* QuickMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuickMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E2592411CD0C2CE0035E2C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1E2592461CD0C2CE0035E2C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1E25924B1CD0C2CE0035E2C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1E25924D1CD0C2CE0035E2C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E2D1EA61CD9179D00868BA7 /* URLParams.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLParams.swift; sourceTree = "<group>"; };
+		1E2D1EA81CD94F9600868BA7 /* SortConstant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SortConstant.swift; sourceTree = "<group>"; };
+		1E2F896E1D50DB6600D05D3F /* HelpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpViewController.swift; sourceTree = "<group>"; };
+		1E36C28A1CD3CAA600BCFCBF /* OffersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OffersViewController.swift; sourceTree = "<group>"; };
+		1E48BA2D1D09932D005A1B46 /* LocationMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationMapViewController.swift; sourceTree = "<group>"; };
+		1E6472811D1744900011D2C0 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		1E78874D1D24741000EB5BE8 /* BalanceHistory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BalanceHistory.swift; sourceTree = "<group>"; };
+		1E78874F1D24783000EB5BE8 /* BalanceHistoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BalanceHistoryViewController.swift; sourceTree = "<group>"; };
+		1E7887511D2483EE00EB5BE8 /* BalanceHistoryTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BalanceHistoryTableViewCell.swift; sourceTree = "<group>"; };
+		1E84303F1CD254680071BE68 /* RequestsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestsViewController.swift; sourceTree = "<group>"; };
+		1E8483391D522DDC0061E069 /* intro.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = intro.mp4; sourceTree = "<group>"; };
+		1E84833B1D522E290061E069 /* IntroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
+		1E87263E1CD40CC700AFB279 /* OfferTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OfferTableViewController.swift; sourceTree = "<group>"; };
+		1E8726401CD4113B00AFB279 /* Request.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		1E8726421CD412A600AFB279 /* OfferTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OfferTableViewCell.swift; sourceTree = "<group>"; };
+		1E8726451CD4135300AFB279 /* Offer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Offer.swift; sourceTree = "<group>"; };
+		1E8726471CD41F8E00AFB279 /* MainMenuTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainMenuTableViewController.swift; sourceTree = "<group>"; };
+		1E97761D1CF1DDA10027C5C3 /* NotificationType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationType.swift; sourceTree = "<group>"; };
+		1E97A2CD1D8EBC7900AF7B25 /* QuickMe.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = QuickMe.entitlements; sourceTree = "<group>"; };
+		1EA5136E1CD21B880035F76F /* NSDate_Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSDate_Extension.swift; sourceTree = "<group>"; };
+		1EA513711CD22EC30035F76F /* ReportProblemTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReportProblemTableViewController.swift; sourceTree = "<group>"; };
+		1EADD2631CD7ECC10066D9C2 /* RealmUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmUtils.swift; sourceTree = "<group>"; };
+		1EADD2651CD7F23D0066D9C2 /* WebserviceUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebserviceUtils.swift; sourceTree = "<group>"; };
+		1EADD2671CD7F2BD0066D9C2 /* URLConstant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLConstant.swift; sourceTree = "<group>"; };
+		1EB6F9431DA690ED00C94794 /* CountryCode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountryCode.swift; sourceTree = "<group>"; };
+		1EB6F9451DA6918200C94794 /* countries.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = countries.json; sourceTree = "<group>"; };
+		1EB6F9471DA6929200C94794 /* CountryCodesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountryCodesViewController.swift; sourceTree = "<group>"; };
+		1EC24ED61D00F2700036B6B0 /* Amount.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Amount.swift; sourceTree = "<group>"; };
+		1EC24ED71D00F2700036B6B0 /* Details.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Details.swift; sourceTree = "<group>"; };
+		1EC24ED81D00F2700036B6B0 /* Item_list.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item_list.swift; sourceTree = "<group>"; };
+		1EC24ED91D00F2700036B6B0 /* Items.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Items.swift; sourceTree = "<group>"; };
+		1EC24EDA1D00F2700036B6B0 /* SaleModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SaleModel.swift; sourceTree = "<group>"; };
+		1EC24EDB1D00F2700036B6B0 /* Links.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Links.swift; sourceTree = "<group>"; };
+		1EC24EDC1D00F2700036B6B0 /* Payer_info.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Payer_info.swift; sourceTree = "<group>"; };
+		1EC24EDD1D00F2700036B6B0 /* Payer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Payer.swift; sourceTree = "<group>"; };
+		1EC24EDE1D00F2700036B6B0 /* Related_resources.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Related_resources.swift; sourceTree = "<group>"; };
+		1EC24EDF1D00F2700036B6B0 /* Sale.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sale.swift; sourceTree = "<group>"; };
+		1EC24EE01D00F2700036B6B0 /* Shipping_address.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shipping_address.swift; sourceTree = "<group>"; };
+		1EC24EE11D00F2700036B6B0 /* Transaction_fee.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Transaction_fee.swift; sourceTree = "<group>"; };
+		1EC24EE21D00F2700036B6B0 /* Transactions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Transactions.swift; sourceTree = "<group>"; };
+		1EC57D2B1D5A60F000C59DD3 /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		1EC5CB541CFB6F4E00251FAF /* QuickMe-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "QuickMe-Bridging-Header.h"; sourceTree = "<group>"; };
+		1ED3F4BB1CDA41DE0063B8E5 /* ResponseParams.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResponseParams.swift; sourceTree = "<group>"; };
+		1ED96EC41CF671AB00403659 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		1EDDBAF41CD27B1F00BB0728 /* RequestTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestTableViewCell.swift; sourceTree = "<group>"; };
+		1EEA53141CE939D10075B4FF /* icons.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = icons.xcassets; sourceTree = "<group>"; };
+		1EEC9D691D21C8A7002DB5EF /* NotificationSettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationSettingsViewController.swift; sourceTree = "<group>"; };
+		1EF13EE11D073AB000B20FBB /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		1EF13EE31D073E1D00B20FBB /* NSNotificationTypeQuickMe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSNotificationTypeQuickMe.swift; sourceTree = "<group>"; };
+		3AC3DE1ACF4E45634F2251F0 /* Pods-QuickMe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuickMe.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QuickMe/Pods-QuickMe.debug.xcconfig"; sourceTree = "<group>"; };
+		4AFF12144B813C755B93CE88 /* Pods_QuickMe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuickMe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C1CCD93C1E85641A191DCE8 /* Pods-QuickMe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuickMe.release.xcconfig"; path = "Pods/Target Support Files/Pods-QuickMe/Pods-QuickMe.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1E25923B1CD0C2CE0035E2C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6056B2DC84ACE433F15D97EF /* Pods_QuickMe.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E1B8A801CD132E70038A4DB /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1EB6F9471DA6929200C94794 /* CountryCodesViewController.swift */,
+				1E1B8A821CD133200038A4DB /* RegisterViewController.swift */,
+				1E1B8A921CD166600038A4DB /* NewRequestTableViewController.swift */,
+				1EA513711CD22EC30035F76F /* ReportProblemTableViewController.swift */,
+				1E84303F1CD254680071BE68 /* RequestsViewController.swift */,
+				1E36C28A1CD3CAA600BCFCBF /* OffersViewController.swift */,
+				1E87263E1CD40CC700AFB279 /* OfferTableViewController.swift */,
+				1E8726471CD41F8E00AFB279 /* MainMenuTableViewController.swift */,
+				1EF13EE11D073AB000B20FBB /* MapViewController.swift */,
+				1E48BA2D1D09932D005A1B46 /* LocationMapViewController.swift */,
+				1E6472811D1744900011D2C0 /* LoginViewController.swift */,
+				1E0831BB1D19E42800610293 /* ProviderViewController.swift */,
+				1EEC9D691D21C8A7002DB5EF /* NotificationSettingsViewController.swift */,
+				1E78874F1D24783000EB5BE8 /* BalanceHistoryViewController.swift */,
+				1E2F896E1D50DB6600D05D3F /* HelpViewController.swift */,
+				1E84833B1D522E290061E069 /* IntroViewController.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		1E1B8A811CD132F20038A4DB /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				1E2592451CD0C2CE0035E2C9 /* Main.storyboard */,
+				1E25924A1CD0C2CE0035E2C9 /* LaunchScreen.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		1E1B8A841CD133250038A4DB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1E2592411CD0C2CE0035E2C9 /* AppDelegate.swift */,
+				1E25924D1CD0C2CE0035E2C9 /* Info.plist */,
+				1EC5CB541CFB6F4E00251FAF /* QuickMe-Bridging-Header.h */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1E1B8A851CD133340038A4DB /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				1E8483391D522DDC0061E069 /* intro.mp4 */,
+				1EEA53141CE939D10075B4FF /* icons.xcassets */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		1E1B8A861CD15D920038A4DB /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				1E1B8A901CD162420038A4DB /* UIUtils.swift */,
+				1E1B8A871CD15D9D0038A4DB /* PreferenceUtils.swift */,
+				1EADD2631CD7ECC10066D9C2 /* RealmUtils.swift */,
+				1EADD2651CD7F23D0066D9C2 /* WebserviceUtils.swift */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		1E1B8A891CD15DC70038A4DB /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				1E1B8A8A1CD15DD50038A4DB /* PreferenceKeys.swift */,
+				1EADD2671CD7F2BD0066D9C2 /* URLConstant.swift */,
+				1E2D1EA61CD9179D00868BA7 /* URLParams.swift */,
+				1E2D1EA81CD94F9600868BA7 /* SortConstant.swift */,
+				1ED3F4BB1CDA41DE0063B8E5 /* ResponseParams.swift */,
+				1E97761D1CF1DDA10027C5C3 /* NotificationType.swift */,
+				1EF13EE31D073E1D00B20FBB /* NSNotificationTypeQuickMe.swift */,
+				1EC57D2B1D5A60F000C59DD3 /* Constant.swift */,
+			);
+			name = Constants;
+			sourceTree = "<group>";
+		};
+		1E2592351CD0C2CE0035E2C9 = {
+			isa = PBXGroup;
+			children = (
+				1EB6F9451DA6918200C94794 /* countries.json */,
+				1E97A2CD1D8EBC7900AF7B25 /* QuickMe.entitlements */,
+				1ED96EC41CF671AB00403659 /* GoogleService-Info.plist */,
+				1E2592401CD0C2CE0035E2C9 /* Quick Me */,
+				1E25923F1CD0C2CE0035E2C9 /* Products */,
+				363EEE0F9E1A84D94EABE158 /* Pods */,
+				9491CEDE9E04AA068CB6FBFC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1E25923F1CD0C2CE0035E2C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1E25923E1CD0C2CE0035E2C9 /* QuickMe.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1E2592401CD0C2CE0035E2C9 /* Quick Me */ = {
+			isa = PBXGroup;
+			children = (
+				1EC24ED41D00F24D0036B6B0 /* models */,
+				1EDDBAF31CD27B0500BB0728 /* Tableview Cells */,
+				1EA513701CD21B8D0035F76F /* Extensions */,
+				1E1B8A891CD15DC70038A4DB /* Constants */,
+				1E1B8A861CD15D920038A4DB /* Utils */,
+				1E1B8A811CD132F20038A4DB /* Storyboards */,
+				1E1B8A801CD132E70038A4DB /* View Controllers */,
+				1E1B8A851CD133340038A4DB /* Images */,
+				1E1B8A841CD133250038A4DB /* Supporting Files */,
+				1E8726441CD4134700AFB279 /* Realm Models */,
+			);
+			path = "Quick Me";
+			sourceTree = "<group>";
+		};
+		1E8726441CD4134700AFB279 /* Realm Models */ = {
+			isa = PBXGroup;
+			children = (
+				1E8726401CD4113B00AFB279 /* Request.swift */,
+				1E8726451CD4135300AFB279 /* Offer.swift */,
+				1E78874D1D24741000EB5BE8 /* BalanceHistory.swift */,
+			);
+			name = "Realm Models";
+			sourceTree = "<group>";
+		};
+		1EA513701CD21B8D0035F76F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1EA5136E1CD21B880035F76F /* NSDate_Extension.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		1EC24ED41D00F24D0036B6B0 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				1EB6F9431DA690ED00C94794 /* CountryCode.swift */,
+				1EC24ED51D00F2530036B6B0 /* Paypal Sale Model */,
+			);
+			name = models;
+			sourceTree = "<group>";
+		};
+		1EC24ED51D00F2530036B6B0 /* Paypal Sale Model */ = {
+			isa = PBXGroup;
+			children = (
+				1EC24ED61D00F2700036B6B0 /* Amount.swift */,
+				1EC24ED71D00F2700036B6B0 /* Details.swift */,
+				1EC24ED81D00F2700036B6B0 /* Item_list.swift */,
+				1EC24ED91D00F2700036B6B0 /* Items.swift */,
+				1EC24EDA1D00F2700036B6B0 /* SaleModel.swift */,
+				1EC24EDB1D00F2700036B6B0 /* Links.swift */,
+				1EC24EDC1D00F2700036B6B0 /* Payer_info.swift */,
+				1EC24EDD1D00F2700036B6B0 /* Payer.swift */,
+				1EC24EDE1D00F2700036B6B0 /* Related_resources.swift */,
+				1EC24EDF1D00F2700036B6B0 /* Sale.swift */,
+				1EC24EE01D00F2700036B6B0 /* Shipping_address.swift */,
+				1EC24EE11D00F2700036B6B0 /* Transaction_fee.swift */,
+				1EC24EE21D00F2700036B6B0 /* Transactions.swift */,
+			);
+			name = "Paypal Sale Model";
+			sourceTree = "<group>";
+		};
+		1EDDBAF31CD27B0500BB0728 /* Tableview Cells */ = {
+			isa = PBXGroup;
+			children = (
+				1EDDBAF41CD27B1F00BB0728 /* RequestTableViewCell.swift */,
+				1E8726421CD412A600AFB279 /* OfferTableViewCell.swift */,
+				1E7887511D2483EE00EB5BE8 /* BalanceHistoryTableViewCell.swift */,
+			);
+			name = "Tableview Cells";
+			sourceTree = "<group>";
+		};
+		363EEE0F9E1A84D94EABE158 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3AC3DE1ACF4E45634F2251F0 /* Pods-QuickMe.debug.xcconfig */,
+				4C1CCD93C1E85641A191DCE8 /* Pods-QuickMe.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9491CEDE9E04AA068CB6FBFC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4AFF12144B813C755B93CE88 /* Pods_QuickMe.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1E25923D1CD0C2CE0035E2C9 /* QuickMe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E2592501CD0C2CE0035E2C9 /* Build configuration list for PBXNativeTarget "QuickMe" */;
+			buildPhases = (
+				4F1426A338CF3FE82BAED6B1 /* Check Pods Manifest.lock */,
+				1E25923A1CD0C2CE0035E2C9 /* Sources */,
+				1E25923B1CD0C2CE0035E2C9 /* Frameworks */,
+				1E25923C1CD0C2CE0035E2C9 /* Resources */,
+				0660298D1F4D04C997760968 /* Embed Pods Frameworks */,
+				3F49A6E799FD13E20D7D8E89 /* Copy Pods Resources */,
+				1E7418661D317E840057AD9E /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QuickMe;
+			productName = "Quick Me";
+			productReference = 1E25923E1CD0C2CE0035E2C9 /* QuickMe.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1E2592361CD0C2CE0035E2C9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Quick Me";
+				TargetAttributes = {
+					1E25923D1CD0C2CE0035E2C9 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = B2V9BE9YB3;
+						LastSwiftMigration = 0800;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 1E2592391CD0C2CE0035E2C9 /* Build configuration list for PBXProject "QuickMe" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1E2592351CD0C2CE0035E2C9;
+			productRefGroup = 1E25923F1CD0C2CE0035E2C9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1E25923D1CD0C2CE0035E2C9 /* QuickMe */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1E25923C1CD0C2CE0035E2C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EB6F9461DA6918200C94794 /* countries.json in Resources */,
+				1E84833A1D522DE60061E069 /* intro.mp4 in Resources */,
+				1EEA53151CE939D10075B4FF /* icons.xcassets in Resources */,
+				1ED96EC51CF671AB00403659 /* GoogleService-Info.plist in Resources */,
+				1E25924C1CD0C2CE0035E2C9 /* LaunchScreen.storyboard in Resources */,
+				1E2592471CD0C2CE0035E2C9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0660298D1F4D04C997760968 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QuickMe/Pods-QuickMe-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1E7418661D317E840057AD9E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Fabric/run\" 2acb5f5826efbad152e5e294968f7c074ed1132f f10c2f373920a41a92884dfbe0aafd4d3e9d5f153341031ef5bedec8dc1ceab9";
+		};
+		3F49A6E799FD13E20D7D8E89 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QuickMe/Pods-QuickMe-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4F1426A338CF3FE82BAED6B1 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1E25923A1CD0C2CE0035E2C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EC24EEE1D00F2700036B6B0 /* Transaction_fee.swift in Sources */,
+				1EEC9D6A1D21C8A7002DB5EF /* NotificationSettingsViewController.swift in Sources */,
+				1EC24EED1D00F2700036B6B0 /* Shipping_address.swift in Sources */,
+				1EC24EE81D00F2700036B6B0 /* Links.swift in Sources */,
+				1EC24EE51D00F2700036B6B0 /* Item_list.swift in Sources */,
+				1EADD2661CD7F23D0066D9C2 /* WebserviceUtils.swift in Sources */,
+				1E2D1EA91CD94F9600868BA7 /* SortConstant.swift in Sources */,
+				1EC24EEF1D00F2700036B6B0 /* Transactions.swift in Sources */,
+				1EB6F9481DA6929200C94794 /* CountryCodesViewController.swift in Sources */,
+				1E2D1EA71CD9179D00868BA7 /* URLParams.swift in Sources */,
+				1E48BA2E1D09932D005A1B46 /* LocationMapViewController.swift in Sources */,
+				1EC24EE91D00F2700036B6B0 /* Payer_info.swift in Sources */,
+				1E84833C1D522E290061E069 /* IntroViewController.swift in Sources */,
+				1EC24EE61D00F2700036B6B0 /* Items.swift in Sources */,
+				1EC24EE71D00F2700036B6B0 /* SaleModel.swift in Sources */,
+				1E87263F1CD40CC700AFB279 /* OfferTableViewController.swift in Sources */,
+				1EB6F9441DA690ED00C94794 /* CountryCode.swift in Sources */,
+				1E8726481CD41F8E00AFB279 /* MainMenuTableViewController.swift in Sources */,
+				1E1B8A931CD166600038A4DB /* NewRequestTableViewController.swift in Sources */,
+				1E7887501D24783000EB5BE8 /* BalanceHistoryViewController.swift in Sources */,
+				1E1B8A881CD15D9D0038A4DB /* PreferenceUtils.swift in Sources */,
+				1E8726461CD4135300AFB279 /* Offer.swift in Sources */,
+				1EC24EEB1D00F2700036B6B0 /* Related_resources.swift in Sources */,
+				1EADD2641CD7ECC10066D9C2 /* RealmUtils.swift in Sources */,
+				1E2F896F1D50DB6600D05D3F /* HelpViewController.swift in Sources */,
+				1E8430401CD254680071BE68 /* RequestsViewController.swift in Sources */,
+				1E2592421CD0C2CE0035E2C9 /* AppDelegate.swift in Sources */,
+				1EC24EE41D00F2700036B6B0 /* Details.swift in Sources */,
+				1EC24EE31D00F2700036B6B0 /* Amount.swift in Sources */,
+				1E97761E1CF1DDA10027C5C3 /* NotificationType.swift in Sources */,
+				1EDDBAF51CD27B1F00BB0728 /* RequestTableViewCell.swift in Sources */,
+				1E7887521D2483EE00EB5BE8 /* BalanceHistoryTableViewCell.swift in Sources */,
+				1E8726411CD4113B00AFB279 /* Request.swift in Sources */,
+				1E8726431CD412A600AFB279 /* OfferTableViewCell.swift in Sources */,
+				1E1B8A911CD162420038A4DB /* UIUtils.swift in Sources */,
+				1E6472821D1744900011D2C0 /* LoginViewController.swift in Sources */,
+				1EF13EE21D073AB000B20FBB /* MapViewController.swift in Sources */,
+				1EC57D2C1D5A60F000C59DD3 /* Constant.swift in Sources */,
+				1E36C28B1CD3CAA600BCFCBF /* OffersViewController.swift in Sources */,
+				1EC24EEC1D00F2700036B6B0 /* Sale.swift in Sources */,
+				1E1B8A8B1CD15DD50038A4DB /* PreferenceKeys.swift in Sources */,
+				1E0831BC1D19E42800610293 /* ProviderViewController.swift in Sources */,
+				1ED3F4BC1CDA41DE0063B8E5 /* ResponseParams.swift in Sources */,
+				1EC24EEA1D00F2700036B6B0 /* Payer.swift in Sources */,
+				1E78874E1D24741000EB5BE8 /* BalanceHistory.swift in Sources */,
+				1EF13EE41D073E1D00B20FBB /* NSNotificationTypeQuickMe.swift in Sources */,
+				1EA5136F1CD21B880035F76F /* NSDate_Extension.swift in Sources */,
+				1EADD2681CD7F2BD0066D9C2 /* URLConstant.swift in Sources */,
+				1EA513721CD22EC30035F76F /* ReportProblemTableViewController.swift in Sources */,
+				1E1B8A831CD133200038A4DB /* RegisterViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1E2592451CD0C2CE0035E2C9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E2592461CD0C2CE0035E2C9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1E25924A1CD0C2CE0035E2C9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E25924B1CD0C2CE0035E2C9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1E25924E1CD0C2CE0035E2C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1E25924F1CD0C2CE0035E2C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1E2592511CD0C2CE0035E2C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AC3DE1ACF4E45634F2251F0 /* Pods-QuickMe.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = QuickMe.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Quick Me/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chillio.quickme;
+				PRODUCT_NAME = QuickMe;
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Quick Me/QuickMe-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 2.3;
+			};
+			name = Debug;
+		};
+		1E2592521CD0C2CE0035E2C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C1CCD93C1E85641A191DCE8 /* Pods-QuickMe.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = QuickMe.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Quick Me/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chillio.quickme;
+				PRODUCT_NAME = QuickMe;
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Quick Me/QuickMe-Bridging-Header.h";
+				SWIFT_VERSION = 2.3;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1E2592391CD0C2CE0035E2C9 /* Build configuration list for PBXProject "QuickMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E25924E1CD0C2CE0035E2C9 /* Debug */,
+				1E25924F1CD0C2CE0035E2C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E2592501CD0C2CE0035E2C9 /* Build configuration list for PBXNativeTarget "QuickMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E2592511CD0C2CE0035E2C9 /* Debug */,
+				1E2592521CD0C2CE0035E2C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1E2592361CD0C2CE0035E2C9 /* Project object */;
+}
